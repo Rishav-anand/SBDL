@@ -8,7 +8,7 @@ def get_config(env):
     conf = {}
     for (key, val) in config.items(env):
         conf[key] = val
-    return confSS
+    return conf
 
 
 
