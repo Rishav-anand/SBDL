@@ -1,6 +1,7 @@
 import configparser
 from pyspark import SparkConf
 
+#This file used to load configuration from two configuration files in config folder
 
 def get_config(env):
     config = configparser.ConfigParser()
